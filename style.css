@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  background-color: #e8e8e8;
+  margin: 0px;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fcfcfc;
+  border-radius: 2%;
+  box-shadow: 2px 2px 10px #888888;
+  padding: 5px 0px;
+  margin: 20px auto;
+}
+
+#peace {
+  font-family: 'Barrio', cursive;
+}
+
+@keyframes change_color {
+    from {color: #000000;}
+    to {color: #ff0000;}
+}
+
+.conquer {
+  animation-name: change_color;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+.poem:first-letter {
+  font-size: 40px;
+  font-family: "Times New Roman";
+}
+
+.poem {
+  text-align: left;
+  font-family: "Baskerville";
+  margin: -15px 0 -15px 180px;
+}
+
+.social_media > li {
+  display: inline-block;
+  font-size: 50px;
+  margin-left: 30px;
+  padding: 0px;
+}
+.twitter {
+  margin-right: 120px;
+}
+
+.bioshock_row {
+  background-color: #f4f9ff;
+  font-family: "Optima";
+}
+
+.killer7_row {
+  background-color: #fff4f4;
+  font-family: "papyrus";
+}
+
+.danganronpa_row {
+  background-color: #fff4fd;
+  font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+}
+
+th, td {
+  border-bottom: 1px solid black;
+  padding: 15px;
+}
+
+img {
+  border-radius: 6px;
+  width: 70%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.myself {
+  border-radius: 50%;
+  width: 35%;
+  border-style: outset;
+  border-width: 4px;
+  margin: -10px 0;
+}
+
+.link:hover {
+  color: #e52269;
+}
+
+.link {
+  font-size: 23px;
+  color: #8c898b;
+}
